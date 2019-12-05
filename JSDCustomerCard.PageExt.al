@@ -11,6 +11,10 @@ pageextension 50149 "JSD Customer Card" extends "Customer Card"
                 begin
                     Message('I am from NAV');
                 end;
+                trigger PresentClicked(presentNo : Integer);
+                begin
+                    "Address 2" := StrSubstNo('Ship present %1',presentNo);
+                end;
             }
             field("Sales (LCY)";"Sales (LCY)")
             {

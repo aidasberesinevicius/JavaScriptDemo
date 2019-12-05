@@ -10,5 +10,6 @@ controladdin ControlAddinDemo
     VerticalStretch = true;
 
     event ControlAddinLoaded();
+    event PresentClicked(presentNo: Integer);
     procedure SetPresents(noOfPresents: Integer)
 }
