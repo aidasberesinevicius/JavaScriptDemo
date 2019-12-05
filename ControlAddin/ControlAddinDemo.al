@@ -6,4 +6,6 @@ controladdin ControlAddinDemo
     RequestedWidth = 300;
     HorizontalStretch = true;
     VerticalStretch = true;
+
+    event ControlAddinLoaded();
 }

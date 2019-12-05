@@ -1,1 +1,1 @@
-alert('It\'s a live!');
+Microsoft.Dynamics.NAV.InvokeExtensibilityMethod("ControlAddinLoaded", []);
